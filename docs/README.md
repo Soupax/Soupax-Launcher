@@ -1,7 +1,6 @@
 <p align="center"><img src="../src/assets/images/icon.png" alt="icon-launcher"></p>
 
 <h1 align="center">Soupax Launcher</h1>
-
 ---
 ### **<ins><p align="center">Conditions d'utilisation:</p>**
 - Pour utiliser le code vous devez faire un fork du projet.
