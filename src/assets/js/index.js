@@ -29,9 +29,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "Vive Linux !", "author": "Soupax" },
+            { "message": "Meinkampf", "author": "Hitler" },
+            { "message": "Sans bug ! (je crois)", "author": "Soupax" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -84,7 +84,7 @@ class Splash {
             this.startLauncher();
         }).catch(e => {
             console.error(e);
-            return this.shutdown("Aucune connexion internet détectée,<br>veuillez réessayer ultérieurement.");
+            return this.shutdown("Impossible de contacter le serveur web,<br>verifiez votre connexion ou contacter Soupax.");
         })
     }
 

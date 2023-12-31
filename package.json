@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.0",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "Soupax-Launcher",
+    "preductname": "Soupax Launcher",
+    "version": "2.0.1",
+    "description": "Launcher Mincraft pour le serveur Soupax SMP Modded",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "soupax, Inc.",
+        "email": "soupaalex@gmail.com",
+        "url": "https://github.com/Soupax"
     },
-    "url": "http://launcher.luuxis.fr/launcherSelvania",
-    "scripts": {
+    "url": "http://soupax.duckdns.org:8085",
+    "scripts": {    
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=false --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/Soupax/Soupax-Launcher/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Soupax/Soupax-Launcher.git"
     }
 }
