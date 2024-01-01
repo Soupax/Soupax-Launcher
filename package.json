@@ -1,7 +1,7 @@
 {
     "name": "Soupax-Launcher",
     "preductname": "Soupax Launcher",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Launcher Mincraft pour le serveur Soupax SMP Modded",
     "main": "src/app.js",
     "author": {
